@@ -107,8 +107,8 @@ protected:
 };
 
 int main() {
-	Terminal term{};
+    Terminal term{};
     term.addCommand(new OpCMD());
-	term.run();
+    term.run();
 }
 ```
